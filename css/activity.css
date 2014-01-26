@@ -17,12 +17,32 @@ html {} is paired with and styles <html>
 html {
     font-family: Arial, Helvetica, sans-serif;
 }
-    
-    
-    
-    
+
+body {
+    background-color: #ccc;
+}
+
 h1 {
     font-family: Geotgia, "times New Roman", serif;
     font-size: 3rem; /* 1rem=16px */
     font-weight:normal;
-}    
+}
+    
+p,
+li {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+h1 + p {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
