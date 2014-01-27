@@ -19,30 +19,40 @@ html {
 }
 
 body {
-    background-color: #ccc;
+    background-color: #999;
 }
 
 h1 {
     font-family: Geotgia, "times New Roman", serif;
-    font-size: 3rem; /* 1rem=16px */
-    font-weight:normal;
-}
-    
-p,
-li {
-    font-size: 1rem;
-    line-height: 1.5rem;
+    font-size: 3.5rem;
+    font-weight:bold;
+    text-shadow:#555 3px 2px;
 }
 
-h1 + p {
+h2 {
     font-size: 1.5rem;
-    line-height: 1.75rem;
+    line-height:normal;
 }
 
-strong {
-    font-weight: bold;
+hr {
+   border: solid 7px #000;    
+}
+
+h3 {
+   background-color:#888;
 }
 
 em {
-    font-style: italic;
+   font-weight:normal;
 }
+
+li {
+    color: #f00;
+    border-top: 2px solid #000; 
+    border-bottom: 2px solid #000;
+}
+
+ol li:last-child {
+    background-color: #f90;
+}
+
